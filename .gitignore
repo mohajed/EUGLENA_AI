@@ -1,0 +1,26 @@
+# Python caches and local environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+
+# Local credentials and workspace configuration
+.env
+.env.*
+!.env.example
+.aws/
+.codex/
+.agents/
+
+# Local analysis output (the upstream demo remains tracked)
+results/
+recordings/
+*_summary.csv
+*.pkl
+
+# Editor / OS files
+.vscode/
+.idea/
+.DS_Store
+*~
